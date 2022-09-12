@@ -1,0 +1,64 @@
+/* WRITE YOUR CSS HERE */
+button {
+    border-radius: .28rem;
+}
+
+.c {
+    border-radius: 2rem;
+}
+
+#ma {
+    background-color: blue;
+    color: white;
+    border: .2rem solid blue;
+}
+
+#ca {
+    color: green;
+    border: .2rem solid green;
+}
+
+#weird-card {
+    background-color: dodgerblue;
+    border-radius: 50% 50% 1rem 1rem; 
+    
+}
+
+#weird-card::before{
+    content: '';
+    background: #dfe7fd;
+    display: block;
+    width: 235px;
+    height: 15px;
+    top: 47%;
+    position: absolute;
+}
+
+.a {
+    background: #12277E;
+    color: white;
+    width: 80px;
+    text-align: left;
+    border: #dfe7fd 1rem;
+    padding: .8rem;
+    margin: 2px;
+    padding-left: 3px;
+}
+
+.a:hover {
+    background-color: beige;
+    color: #12277E;
+}
+
+h2 {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    text-transform: lowercase;
+}
+
+li {
+    list-style-image: url(\user-secret-solid.svg); 
+}
+
+#weird-card {
+    box-shadow: 8px 8px 8px;
+}
